@@ -1,0 +1,320 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    /*vertical-align: baseline;*/
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, div {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*************extra**************/
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    background-color: pink;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    background-color: gray;
+    /*height:900px;*/
+    /*width: 900px;*/
+    height: 400px;
+    width: 400px;
+
+}
+
+/*.arrow {*/
+    /*display: flex;*/
+    /*justify-content: flex-start;*/
+    /*align-items: center;*/
+    /*width: 185px;*/
+    /*height: 100px;*/
+    /*position: relative;*/
+    /*overflow: hidden;*/
+    /*background-color: green;*/
+    /*transform: scale(0.1);*/
+/*}*/
+
+/*.arrow:after {*/
+    /*content: "";*/
+    /*width: 160px;*/
+    /*height: 10px;*/
+    /*background-color: black;*/
+    /*z-index:2;*/
+/*}*/
+
+/*.arrow:before {*/
+    /*content: "";*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*bottom: 0;*/
+    /*right: 0;*/
+    /*width: 60px;*/
+    /*height: 60px;*/
+    /*margin-top: -30px;*/
+    /*margin-right: 15px;*/
+    /*transform: rotate(45deg);*/
+    /*border-top: 10px solid black;*/
+    /*border-right: 10px solid black;*/
+    /*z-index:1;*/
+    /*box-sizing: border-box;*/
+/*}*/
+
+/*.arrow {*/
+    /*display: flex;*/
+    /*justify-content: flex-start;*/
+    /*align-items: center;*/
+    /*width: 180px;*/
+    /*height: 90px;*/
+    /*position: relative;*/
+    /*overflow: hidden;*/
+    /*background-color: green;*/
+/*}*/
+
+/*.arrow:after {*/
+    /*content: "";*/
+    /*width: 164px;*/
+    /*height: 10px;*/
+    /*background-color: black;*/
+    /*z-index:2;*/
+/*}*/
+
+/*.arrow:before {*/
+    /*content: "";*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*bottom: 0;*/
+    /*right: 0;*/
+    /*width: 60px;*/
+    /*height: 60px;*/
+    /*margin-top: -30px;*/
+    /*margin-right: 15px;*/
+    /*transform: rotate(45deg);*/
+    /*border-top: 10px solid black;*/
+    /*border-right: 10px solid black;*/
+    /*z-index:1;*/
+    /*box-sizing: border-box;*/
+/*}*/
+
+/*.arrow {*/
+    /*display: flex;*/
+    /*justify-content: flex-start;*/
+    /*align-items: center;*/
+    /*width: 180px;*/
+    /*height: 84px;*/
+    /*position: relative;*/
+    /*overflow: hidden;*/
+    /*background-color: green;*/
+    /*transform: scale(0.1);*/
+/*}*/
+
+/*.arrow:after {*/
+    /*content: "";*/
+    /*width: 164px;*/
+    /*height: 13px;*/
+    /*background-color: white;*/
+    /*z-index:2;*/
+/*}*/
+
+/*.arrow:before {*/
+    /*content: "";*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*bottom: 0;*/
+    /*right: 0;*/
+    /*width: 60px;*/
+    /*height: 60px;*/
+    /*margin-top: -30px;*/
+    /*margin-right: 15px;*/
+    /*transform: rotate(45deg);*/
+    /*border-top: 13px solid white;*/
+    /*border-right: 13px solid white;*/
+    /*z-index:1;*/
+    /*box-sizing: border-box;*/
+/*}*/
+
+/*.arrow {*/
+    /*display: flex;*/
+    /*justify-content: flex-start;*/
+    /*align-items: center;*/
+    /*width: 1735px;*/
+    /*height: 822px;*/
+    /*position: relative;*/
+    /*overflow: hidden;*/
+    /*background-color: green;*/
+    /*transform: scale(0.1);*/
+/*}*/
+
+/*.arrow:after {*/
+    /*content: "";*/
+    /*width: 1600px;*/
+    /*height: 130px;*/
+    /*background-color: white;*/
+    /*z-index:2;*/
+/*}*/
+
+/*.arrow:before {*/
+    /*content: "";*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*bottom: 0;*/
+    /*right: 0;*/
+    /*width: 582px;*/
+    /*height: 582px;*/
+    /*margin-top: -291px;*/
+    /*margin-right: 130px;*/
+    /*transform: rotate(45deg);*/
+    /*border-top: 130px solid white;*/
+    /*border-right: 130px solid white;*/
+    /*z-index:1;*/
+    /*box-sizing: border-box;*/
+/*}*/
+
+.arrow {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: calc(1735px * 0.01);
+    height: calc(822px * 0.01);
+    position: relative;
+    overflow: hidden;
+    background-color: green;
+    margin-bottom: 20px;
+}
+
+.arrow:after {
+    content: "";
+    width: calc(1600px * 0.01);
+    height: calc(130px * 0.01);
+    background-color: white;
+    z-index:2;
+}
+
+.arrow:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    right: 0;
+    width: calc(581px * 0.01);
+    height: calc(581px * 0.01);
+    margin-top: calc(-291px * 0.01);
+    margin-right: calc(180px * 0.01);
+    transform: rotate(45deg);
+    border-top: calc(130px * 0.01) solid white;
+    border-right: calc(130px * 0.01) solid white;
+    z-index:1;
+    box-sizing: border-box;
+}
+
+.arrow2 {
+    display:flex;
+    justify-content:end;
+    align-items:center;
+    width: 163px;
+    height: 82px;
+    background-color: #4dc2e2;
+    color: yellow;
+}
+
+.arrow2:before {
+    content: "";
+    width: 120px;
+    height: 13px;
+    background-color: yellow;
+    z-index:2;
+}
+
+.arrow2:after {
+    content: "\\";
+    font-size: 77px;
+}
+
+
+
+/*.arrow {*/
+    /*display: flex;*/
+    /*justify-content: flex-start;*/
+    /*align-items: center;*/
+    /*width: 18px;*/
+    /*height: 8.4px;*/
+    /*position: relative;*/
+    /*overflow: hidden;*/
+    /*background-color: green;*/
+/*}*/
+
+/*.arrow:after {*/
+    /*content: "";*/
+    /*width: 16.4px;*/
+    /*height: 1.3px;*/
+    /*background-color: black;*/
+    /*z-index:2;*/
+/*}*/
+
+/*.arrow:before {*/
+    /*content: "";*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*bottom: 0;*/
+    /*right: 0;*/
+    /*width: 6px;*/
+    /*height: 6px;*/
+    /*margin-top: -3px;*/
+    /*margin-right: 1.5px;*/
+    /*transform: rotate(45deg);*/
+    /*border-top: 1.3px solid black;*/
+    /*border-right: 1.3px solid black;*/
+    /*z-index:1;*/
+    /*box-sizing: border-box;*/
+/*}*/
